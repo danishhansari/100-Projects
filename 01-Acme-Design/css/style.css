@@ -1,0 +1,317 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #f4f4f4;
+    outline: none;
+    border: none;
+}
+
+/* blue:#001833
+    red: #E50914 */
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.head {
+    background: #001833;
+
+}
+
+span {
+    color: tomato;
+}
+
+.branding h2 {
+
+    font-size: 30px;
+}
+
+.navbar .branding {
+    float: left;
+    color: #f4f4f4;
+    margin: 0px 20px;
+}
+
+.navbar ul {
+    float: right;
+    text-align: center;
+    margin: 30px 10px;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #e50914;
+}
+
+.navbar ul li .active {
+    font-weight: bold;
+    color: #e50914;
+}
+
+.showcase {
+    width: 100%;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url('../img/showcase.jpg');
+    background-size: cover;
+    color: #f4f4f4;
+}
+
+.showcase h2 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.showcase p {
+    font-size: 1.3em;
+}
+
+.navbar {
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: #001833;
+    color: #f4f4f4;
+}
+
+.navbar p {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav .right {
+    float: right;
+    margin: 10px;
+    margin-top: 10px;
+
+}
+
+.right input {
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.right .button {
+    background: #e50914;
+    color: #fff;
+    transition: background 0.5s;
+    border: none;
+    margin-left: 5px;
+}
+
+.right .button:hover {
+    background: #fff;
+    color: #e50914;
+}
+
+.hero .skill {
+    float: left;
+    width: 30%;
+    border: 5px solid #fff;
+    text-align: center;
+    margin: 15px;
+}
+
+.logo img {
+    width: 35%;
+}
+
+footer {
+    height: 8%;
+    background-color: #e50914;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.about-nav {
+    border-top: 2px solid #e50914;
+}
+
+article {
+    width: 65%;
+    float: left;
+    overflow: auto;
+}
+
+.dark {
+    background-color: #001833;
+    color: #f4f4f4;
+    width: 30%;
+    float: right;
+    padding: 25px;
+    margin: 45px 5px;
+    border-radius: 5px;
+}
+
+.color {
+    background-color: #001833;
+    color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.service-form {
+    padding: 10px;
+    width: 25%;
+    margin-top: 30px;
+
+}
+
+.service-form form {
+    padding: 20px 10px;
+}
+
+.service-form h2 {
+    font-size: 35px;
+    margin: 20px 0px;
+}
+
+.service-form input {
+    width: 90%;
+    padding: 3px 10px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    height: 28px;
+    border-radius: 5px;
+
+}
+
+.service-form input[type="submit"] {
+    color: #f4f4f4;
+    background-color: #e50914;
+    transition: all .3s;
+    height: 30px;
+    width: 100px;
+}
+
+.service-form input[type="submit"]:hover {
+    opacity: 0.8;
+    scale: 1.02;
+    color: #f4f4f4;
+}
+
+.article .main-col {
+    margin: 10px;
+}
+
+.article .main-col ul li {
+    margin: 10px;
+    background-color: #e6e6e6;
+}
+
+section .main-col li {
+    list-style-type: none;
+    padding: 15px;
+    border: 2px solid #ccc;
+}
+
+
+@media(max-width:760px){
+    header .branding,header nav,header nav ul {
+        float: none;
+        text-align: center;
+        width: 100%;
+        height: 15px;    
+    }
+    header nav ul{
+        height: 0px;
+    }
+    .navbar h2{
+        
+        font-size: 25px;
+        margin:10px 5px;
+        margin-bottom: 0px;
+    }
+    .showcase {
+        height: 300px;
+    }
+.showcase p{
+    display: none;
+}
+nav p{
+    text-align:center;
+    display: none;
+}
+nav .right{
+    float: none;
+    text-align: center;
+}
+.hero .skill{
+    width: 100%;
+    height: 300px;
+    padding:0px;
+    margin:10px 0px;
+}
+.hero .logo{
+    padding:0px;
+}
+.hero img{
+    height: 110px;
+    width: 25%;
+}
+.article article{
+    float: none;
+    width: 100%;
+}
+.color{
+    display: none;
+}
+.dark{
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.service-art{
+    width: 100%;
+    float: none;
+    text-align: center;
+    box-sizing: border-box;
+ 
+}
+.article .main-col{
+    width: 100%;
+    float: none;
+    overflow:hidden ;
+    
+}
+.article .main-col ul {
+margin:0px;
+padding:0px;
+width: 100%;
+float: none;
+}
+.article .main-col ul li{
+margin:10px 0px;
+ float: none;
+ border: 1px solid #ccc;
+}
+.service-form form{
+    overflow: hidden;
+    width:80%;
+}
+}
