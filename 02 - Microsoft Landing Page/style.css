@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 /* Global Styling  */
 .container{
@@ -262,7 +263,7 @@ height: 18vh;
     width:100%;
   }
 }
-@media(max-width:500px){
+@media(max-width:550px){
   .container{
     padding:.2rem;
   }
@@ -282,10 +283,31 @@ height: 18vh;
   .main-sec .detail a{
     padding:12px;
   }
+  .xbox {
+    text-align: left;
+  }
+  .xbox {
+    background-size: 200%;
+    background-position: center;  
+  }
+  .xbox p{
+    font-size: 14px;
+  }
   .flex{
     height: 190vh;
   }
   .flex >div{
     width: 100%;
+    border:2px solid #ccc
+  }
+  .green p {
+  font-size: 16px;
+  }
+  .main-footer ul{
+    width: 30%;
+    margin:0rem 3rem;
+  }
+  .bottom{
+    display: none;
   }
 }
