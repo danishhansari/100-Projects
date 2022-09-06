@@ -10,6 +10,7 @@ main{
     box-shadow: 20px 0px 50px rgba(0, 0, 0, 0.1),-20px 0px 50px rgba(0, 0, 0, 0.1);
     font-family: Roboto Condensed,sans-serif;  
     padding:.5rem;  
+    background: #ffdddd;
 }
 
 img{
@@ -52,7 +53,7 @@ a{
 .image{
     width: 50%;
     height: 80vh;
-    background-image:url('img/main.jpg');
+    background-image:url('https://source.unsplash.com/1600x900/?travel,human');
     background-position: center;
     background-size: cover;
 

@@ -8,13 +8,18 @@ body {
     outline: none;
     border: none;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 
 /* blue:#001833
     red: #E50914 */
 a {
     text-decoration: none;
 }
-
+img{
+    display: inline-block;
+}
 .container {
     width: 80%;
     margin: auto;

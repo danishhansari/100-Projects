@@ -18,6 +18,7 @@ body{
     align-items: center;
 }
 img{
+    display: inline-block;
     width: 100%;
 }
 .split{

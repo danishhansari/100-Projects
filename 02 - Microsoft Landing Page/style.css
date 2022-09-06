@@ -9,7 +9,7 @@
 
 /* Global Styling  */
 .container {
-  width: 100%;
+  max-width: 95%;
   padding: 1rem 18rem;
 }
 
@@ -28,6 +28,10 @@ li {
 
 i {
   padding: 0rem .3rem;
+}
+img{
+  display: inline-block;
+  width: 100%;
 }
 
 /* Header Nav Bar*/
