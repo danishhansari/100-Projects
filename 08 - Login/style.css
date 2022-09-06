@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline:none;
+    border: none;
+    font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+i,a{
+    text-decoration: none;
+    transition: .5s all;
+
+}
+footer i{
+color:red;
+}
+.main{
+    width: 100%;
+    height: 95vh;
+    position: relative; 
+}
+.center{
+position:absolute;
+top:3.5rem;
+left: 30%;
+} 
+.main .split{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.split > div{
+    width: 25%;
+    height: 65vh;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+.signup{
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    text-align: center;
+    color: #f4f4f4;
+}
+.signup a{
+    color: white;
+    display: inline-block;
+    padding:.5rem 2rem;
+    background: rgba(255,255,255,0.1);
+    border-radius: 25px;
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+.signup a:hover{
+    background: rgba(0,0,0,0.1);
+    transform: scale(1.08);
+}
+.signup h1{
+    margin-bottom:.8rem;
+    font-size: 2.5rem;
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:.5rem;
+}
+.icon{
+    margin-block:1.5rem;
+}
+.signin h1{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.icon i{
+    margin: .5rem;
+    padding:.5rem;
+    border-radius: 50px;
+}
+.icon .fa-facebook:hover,.icon .fa-linkedin-in:hover{
+    color: white;
+    background: blue;
+}
+.icon .fa-google-plus-g:hover{
+    background: rgb(199, 5, 5);
+    color: white;
+}
+form{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    padding:1rem;
+}
+form input{
+    display: block;
+    padding-block: .5rem;
+    padding-right: 7rem;
+    padding-left: .7rem;
+    margin-block:1rem;
+   
+    background: rgba(255,255,255,0.2);
+}
+
+.form .btn{
+    font-size: .8rem;
+    color: grey;
+}
+.form .forgot{
+    font-size: 1rem;
+    display: block;
+}
+.form .button{
+    background: #ff4b2b;
+    padding:.5rem 2rem;
+    display: inline-block;
+    color: white;
+    margin-top: .5rem;
+    border-radius: 25px;
+    transition: .5s all;
+}
+.form .button:hover{
+    background: #f85b3f;
+}
+footer{
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    padding-top:.5rem;
+    height: 5vh;
+}
+footer a{
+    color: rgb(87, 141, 242);
+}
