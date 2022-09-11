@@ -107,8 +107,9 @@ header ul li a:hover{
     display: inline-block;   
 }
 .para{
-    margin:5rem auto;
-    width: 50%;
+
+     margin:5rem auto;
+     width: 50%;
     text-align: center;
     font-weight: bold;
 }
@@ -126,7 +127,7 @@ header ul li a:hover{
     line-height: 1.2;
 }
 .para .btn{
-    margin-top: 1.5em;
+ margin-top: 1.5em;
 }
 .hero img{
     margin-top:2.5rem;
