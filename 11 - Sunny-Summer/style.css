@@ -9,6 +9,9 @@
     font-family:'Barlow', Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
+body{
+    background: rgb(236, 236, 236);
+}
 ::-webkit-scrollbar{
     display: none;
 }
