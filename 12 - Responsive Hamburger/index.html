@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="ham">
+            <span class="line one"></span>
+            <span class="line two"></span>
+            <span class="line three"></span>
+        </div>
+    </nav>
+    <section class="link">
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact Us  </li>
+        </ul>
+    </section>
+    <section class="bg">
+        
+    </section>
+    <script>
+        const menu = document.querySelector(".ham");
+        const nav  = document.querySelector(".link");
+        let menuOpen = false;
+        menu.addEventListener('click',() =>{
+            if(!menuOpen){
+                menu.classList.add('active')
+                menuOpen = true;
+                nav.classList.add('active');
+            }
+            else{
+                menu.classList.remove('active');
+                menuOpen = false;
+                nav.classList.remove('active');
+            }
+        })
+
+</script>
+</body>
+</html>
