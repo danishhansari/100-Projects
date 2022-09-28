@@ -81,23 +81,23 @@ li{
 } 
 .ham.active .three{
     rotate: -45deg;
-    bottom: 21px;
+    bottom: 24px;
 }
 .nav-bar .ham .line{
     position: absolute;
-    height: 6px;
-    width:2rem;
+    height: 4px;
+    width:1.7rem;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     left: 3px;
     display: block;
 }
 .ham .one{
-    top: 10px;
+    top: 13px;
 }
 .ham .two{
     top: 22px;
 }
 .ham .three{
-    bottom:15px;
+    bottom:20px;
 }
