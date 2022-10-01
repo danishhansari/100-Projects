@@ -1,0 +1,22 @@
+body::before{
+    content: '';
+    display: block;
+    height: 60px;
+}
+#map iframe{
+    box-shadow: 11px 11px 100px rgba(128, 128, 128, 0.581);
+    border-radius: 15px;
+}
+@media (min-width:768px) {
+    .news-input{
+        width: 50%;
+    }
+    #map{
+        margin-left: 50px;
+    }
+}
+@media (max-width:768px) {
+    #map{
+        margin-left: 10px;
+    }
+}
