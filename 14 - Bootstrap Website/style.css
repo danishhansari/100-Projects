@@ -11,12 +11,11 @@ body::before{
     .news-input{
         width: 50%;
     }
-    #map{
-        margin-left: 50px;
-    }
 }
-@media (max-width:768px) {
-    #map{
-        margin-left: 10px;
+@media (max-width:500px){
+    #map iframe{
+        /* display: none; */
+        width: 80%;
+        height: auto;
     }
 }
