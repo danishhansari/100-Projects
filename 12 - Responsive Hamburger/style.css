@@ -72,7 +72,7 @@ li{
     scale: 1.1;
 }
 .ham.active .one{
-    top: 26px;
+    top: 30px;
     rotate: 45deg;
 }
 .ham.active .two{
@@ -81,7 +81,7 @@ li{
 } 
 .ham.active .three{
     rotate: -45deg;
-    bottom: 24px;
+    bottom: 10px;
 }
 .nav-bar .ham .line{
     position: absolute;
@@ -99,5 +99,5 @@ li{
     top: 22px;
 }
 .ham .three{
-    bottom:20px;
+    bottom:9px;
 }
