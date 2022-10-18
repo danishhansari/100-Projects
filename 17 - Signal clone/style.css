@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* Resets and Utilities*/
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.btn{
+    font-family:BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Inter',sans-serif;
+    color: #1b1b1b;
+    background: #f8f6f6;
+}
+li{
+    list-style-type: none;
+    font-weight: 500;
+    color: #1b1b1b;
+}
+a{
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+}
+p{
+    line-height: 1.3;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1400px;
+    margin:auto;
+    padding-inline:1em ;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+/* Navbar */
+.navbar{
+    background: #f8f6f6;
+    padding-block: .5em;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.navbar .logo img{
+    width: 100px;
+}
+.navbar .logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+.navbar .ham{
+    cursor: pointer;
+    padding:1.5em 1em;
+    transition: .5s background-color ease-out;
+    border-radius: 4px;
+}
+.navbar .ham:hover{
+    background-color: rgba(128, 128, 128, .15);
+}
+.navbar .ham .burger{
+    background-color: #000;
+    display: block;
+    width: 15px ;
+    height: 1px;
+    position: relative;
+}
+.navbar .ham .one{
+    bottom:4px;
+    transition: .5s all ease;
+}
+
+.navbar .ham .three{
+    top: 4px;
+    transition: .5s all ease;
+}
+.navbar .ham.open .one{
+    transform: rotate(-45deg);
+}
+.navbar .ham.open .burger{
+    top: 5px;
+}
+.navbar .ham.open .two{
+    display: none;
+}
+.navbar .ham.open .three{
+    transform: rotate(45deg);   
+}
+.list .ul-group li img{
+    width: 20px;
+}
+.list .ul-group{
+    position: absolute;
+    top: 100%;
+    display: none;
+    background: #f8f6f6;
+    width: 100%;
+    z-index: 2;
+}
+.ul-group.open{
+    display: block;
+}
+.ul-group .list-item{
+    margin-block-end: 1em;
+}
+.ul-group .list-item a{
+    transition: .1s color ease;
+}
+.ul-group .list-item a:hover, .ul-group .list-item a:focus , .active{
+    color: steelblue;
+}
+
+/* Main Section */
+
+.main{
+    background: #9dbbf8;
+}
+.main .content , .main .mobile{
+
+    grid-column: 1/9;
+}
+.main .content{
+    margin-top: 5em;
+    padding: 1em 0em;
+}
+.main .content h1{
+    font-weight: 800;
+    margin-bottom: .5em;
+}
+.main .content a{
+    display: inline-block;
+    margin-top: 1em;
+    color: #2c6bed;
+    padding: .6em 1.1em;
+    background: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.main .mobile{
+    max-width: 300px;
+}
+.main .mobile img{
+    width: 100%;
+    display: inline-block;
+}
+
+/*  Testimonial section */
+.testimonial {
+    background: rgb(228, 227, 227);
+    padding-block: 1em;
+}
+.testimonial .grid > div{
+    grid-column: 1/9;
+    margin-block:2em;
+}
+.testimonial .box img{
+    border-radius: 55px;
+} 
+.testimonial .box h1{
+    font-size: 1.2em;
+    margin-block:.5em ;
+}
+.testimonial .box h4{
+    margin-block:.5em ;
+}
+.testimonial .box2 img{
+    border-radius: 35px;
+}
+
+/* Why use Signal Section */
+.y-use{
+    background: #f8f6f6;
+    padding-block: 1em;
+    z-index: 0;
+}
+.y-use .text-center{
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+.text-center h1, .y-use .grid .content h1{
+    font-size: 1.8em;
+    margin-block:.5em ;
+}
+.text-center p{
+    margin-bottom: 1em;
+}
+.y-use .grid > div{
+    grid-column: 1/9;
+}
+.y-use .grid .content{
+    grid-row: 2;
+}
+.y-use .grid .img{
+    max-width:700px;
+    background-color:#a5cad5;
+    position: relative;
+    border-radius: 15px;
+}
+.y-use .grid .img iframe{
+    width: 70%;
+    position: absolute;
+    left: 8%;
+}
+.y-use .grid .content h1{
+    margin-block-end: 1em;
+}
+.y-use .grid .content p{
+    color: #333;
+}
+
+/* Features Section */
+.feature{
+    margin-top: 1em;
+    background-color: #ebeaea;
+    padding-top: 2em;
+    padding-block-end: 3em;
+}
+.feature .grid > div{
+    grid-column: 1/9;
+    max-width: 400px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+    margin-block: 1em;
+    padding: 1em;
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+}
+/* NO Ads Section */
+.no-ads{
+    background-color:#f8f6f6;
+    padding-top: 2em;
+    padding-block-end: 3em;
+}
+.no-ads .grid > div{
+    grid-column: 1/9;
+}
+.no-ads .grid .img-1{
+    grid-row:1;
+}
+.no-ads .content-1 , .no-ads .content-2 {
+    max-width: 400px;
+ }
+ .no-ads .img-1 , .no-ads
+ .img-2{
+    max-width: 650px;
+ }
+ .no-ads .img-1 img, .no-ads .img-2 img{
+    border-radius: 15px;
+    margin-block-end: 2em;
+}
+.no-ads .content-1 h1, .no-ads .content-2 h1{
+    font-size: 1.8em;
+    line-height: 1;
+    margin-bottom:1em;
+    font-weight: 700;
+}
+.no-ads .content-1 p{
+    margin-block: 1em;
+}
+.no-ads .content-2 .btn{
+    margin-top: 1em;
+    padding: .5em 1.2em;
+    outline: 2px solid #2c6bed;
+    color: #2c6bed;
+    border-radius: 10px;
+    transition: .3s outline ease;
+}
+.no-ads .content-2 .btn:hover{
+    outline: 2px solid #0754ef;
+    color: #0055ff;
+}
+
+/*Footer  */
+.main-footer{
+    background-color: #3c3744;
+    color: #ccc;
+    padding-block: 1em;
+}
+.main-footer .grid{
+    margin-top: 2.5em;
+}
+.main-footer .grid > ul{
+    grid-column: 1/9;
+    margin-block-end: 1em;
+}
+.main-footer .grid h4{
+    margin-bottom: 1em;
+}
+.main-footer .grid li{
+    margin-block-end: .3em;
+} 
+.main-footer ul a , .main-footer ul h4{
+    color: #ccc;
+}
+.main-footer .copyright{
+    grid-row: 6;
+}
+.main-footer .copyright .register{
+    margin-block-end: 1em;
+    margin-block-start:.5em ;
+}
+/* Media Queries */
+@media  (min-width:568px) {
+    /* Reset */
+    h1{
+        font-size: 2.8em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    /* Main Header */
+    .main .content{
+        max-width: 400px;
+    }
+    .main .content .btn{
+        padding: .8em 2em;
+    }
+    .main .mobile{
+        margin: auto;
+        transform:rotate(25deg)
+    }
+
+    /* Testimonial */
+        .testimonial{
+            text-align: center;
+        }
+        .testimonial .grid{
+            margin: auto;
+        }
+        .testimonial .box{
+            margin: auto;
+            width: 80%;
+        }
+        /* Why Signal Section */
+        .y-use .text-center h1{
+            font-size: 2.8em;
+            margin-bottom: .1em;
+        }
+        .y-use .text-center p{
+            width: 80%;
+            margin: auto;
+        }
+        .y-use .grid .content h1{
+            font-size: 2.2em;
+            margin-block:.5em;
+        }
+        /* Features */
+        .feature .grid div{
+            margin:1em auto;
+        }
+        /* NO ads */
+        .no-ads .content-1 h1 , .no-ads .content-2 h1{
+            font-size: 2.5em;
+            margin: 0px;
+        }
+        .no-ads .content-1 p , .no-ads .content-2 p{
+            margin-top: .5em;
+        }
+        .no-ads .content-2 .btn{
+            padding: .8em 2em;
+        }
+        .main-footer ul{
+            font-size: 1.2em;
+        }
+}
+@media  (min-width:768px) {
+    /* Why Signal */
+    .y-use .grid .content{
+        margin: auto;
+        text-align: center;
+    }
+    /* Features */
+    .feature .grid div{
+        margin-inline: .5em;
+    }
+    .feature .grid>div h1{
+        font-size: 1.5em;
+    }
+    .feature .grid > div img{
+        width: 80%;
+    }
+    .feature .grid > div p{
+        font-size: 1em;
+    }
+    .feature .grid .media{
+        grid-column: 2/5;
+    }
+    .feature .grid .video-call{
+        grid-column: 5/8;
+    }
+    .feature .grid .privacy{
+        grid-column: 2/5;
+    }
+    .feature .grid .group{
+        grid-column: 5/8;
+    }
+    /* NO ads Section */
+    .no-ads .grid .content-1,
+    .no-ads .grid .content-2,
+    .no-ads .grid .img-1,
+    .no-ads .grid .img-2{
+        margin: auto;
+        text-align: center;
+    }
+    /* Footer */
+   .main-footer .grid .company, .main-footer .grid .social{
+        grid-column: 2/5;
+    }
+    .main-footer .grid .download , .main-footer .grid .help{
+        grid-column: 6/9;
+    }
+    .main-footer .grid .copyright{
+        grid-column: 2/8;
+    }
+}
+@media  (min-width:1024px) {
+    .ham{
+        display: none;
+    }
+    .main-header .navbar .logo img{
+        width: 150px;
+       }
+    .main-header .navbar .ul-group{
+        display: flex;
+        width: 100%;
+    }
+    .main-header .navbar .ul-group li{
+        display: inline-block;
+        margin-inline:.5em;
+    }
+    /* Main header Content */
+    .main-header .grid .content{
+        padding-top: 5em;
+        grid-column: 2/5;
+    }
+    .main-header .grid .mobile{
+        grid-column: 5/8;
+        max-width: 200px;
+        padding-top: 8em;
+    }
+    /* Testimonial Section */
+        .testimonial .grid .box1 , .testimonial .grid .box3{
+            grid-column: 1/5;
+        } 
+        .testimonial .grid .box2 , .testimonial .grid .box4{
+            grid-column: 5/9;
+        } 
+        /* Why Use Section */
+        .y-use .grid .content {
+            grid-row: 1;
+            grid-column: 1/5;
+            padding-inline-end:1em ;
+        }
+        .y-use .grid .img{
+            grid-column: 5/9;
+        }
+        /* No ads Section */
+        .no-ads .grid .content-1{
+            grid-column: 1/5;
+            text-align: left;
+        }
+        .no-ads .grid .img-1{
+            grid-column:5/9;
+        }
+        .no-ads .grid .img-2{
+            grid-column: 1/5;
+        }
+        .no-ads .grid .content-2{
+            grid-column:5/9;
+            text-align: left;
+        }
+}
+@media  (min-width:1300px) {
+    .main-header .grid .content{
+        grid-column: 1/4;
+    }
+    .main-header .grid .mobile{
+        grid-column: 4/9;
+    }
+    /* testimonial SEcton */
+    .testimonial .grid .box{
+        text-align: left;
+    }
+    .testimonial .grid .box img{
+        display: inline-block;
+    }
+    .y-use .grid .content{
+        text-align: left;
+    }
+    /* no ads */
+    .no-ads .grid .content-1 {
+        grid-column: 1/4;
+    }
+    .no-ads .grid .img-2{
+        grid-column: 1/5;
+    }
+    .no-ads .grid .img-1{
+        grid-column: 4/8;
+    }
+    .no-ads .grid .content-2{
+        grid-column: 5/8;
+    }
+    .main-footer .grid{
+        display: flex;
+    }
+    .main-footer .grid .copyright{
+        max-width: 450px;
+    }
+    .main-footer .grid ul{
+        margin-inline-end: 3em;
+    }
+}
