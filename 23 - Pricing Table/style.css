@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+body{
+    background: #222;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-block: .5em;
+}
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin-inline: auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container .card{
+    margin-left: 2em;
+    background: white;
+    color: black;
+    max-width: 500px;
+    width: 100%;
+    padding-block-end: 1.5em;
+    border-radius: 15px;    
+}
+.card h2{
+    border-radius: 15px 15px 0px 0px;   
+    width:100%;
+    background: #000;
+    color: white;
+    padding-block: .8em;
+    margin: 0px;
+    transition: .5s background ease;
+}
+.card:hover h2{
+    background: rgb(8, 171, 76);
+    color: white;
+}
+.card li{
+    margin-block: 1.5em;
+    border-bottom: 1px solid rgba(128, 128, 128,.5);
+    padding-bottom: 1.5em;
+}
+.card .btn{
+background: rgb(0, 176, 85);
+color: white;
+padding: .5em 1em;
+text-decoration: none;
+transition: .4s background ease;
+}
+.card .btn:hover{
+    background: rgb(0, 123, 60);
+}
+
+
+@media screen and (max-width:900px) {
+    .container{
+        flex-direction: column;
+        padding: 1em;
+    }
+    .container .card{
+        width: 100%;
+        margin-block-end: 3em;
+    }
+}
