@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>monitoring</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="44.213%" y1="22.157%" x2="59.975%" y2="91.256%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="monitoring" transform="translate(1.000000, 1.000000)">
+            <path d="M21.322973,1.03716216 L2.19797297,1.03716216 C1.07297297,1.03716216 0.135135135,1.91216216 0.135135135,3.03716216 L0.135135135,20.9121622 C0.135135135,22.0371622 1.0722973,22.9743243 2.19797297,22.9743243 L21.322973,22.9743243 C22.447973,22.9743243 23.3851351,22.0371622 23.3851351,20.9121622 L23.3851351,3.03716216 C23.3851351,1.91216216 22.447973,1.03716216 21.322973,1.03716216 Z" id="Path" stroke="#0069FF"></path>
+            <path d="M23.3851351,15.1621622 L0.135135135,15.1621622 M23.3851351,7.78716216 L0.135135135,7.78716216" id="Shape" stroke="#0069FF" stroke-width="2" opacity="0.3"></path>
+            <path d="M23.5101351,23.0371622 L23.5101351,1.09932432 L17.3851351,9.975 C16.822973,10.725 15.7601351,10.975 15.0101351,10.4121622 L12.5722973,8.72432432 C11.8222973,8.22432432 10.8222973,8.34932432 10.2601351,9.03716216 L0.635135135,20.7871622 C-0.0527027027,21.6 0.510135135,22.9121622 1.63513514,22.9121622 L23.5101351,23.0371622 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <path d="M6.38513514,13.5371622 L9.94797297,9.475 C10.697973,8.53716216 12.0101351,8.35 12.947973,9.03716216 L14.5722973,10.1621622 C15.5722973,10.85 16.9472973,10.6 17.6972973,9.6 L22.1972973,3.03716216" id="Path" stroke="#120078"></path>
+            <circle id="Oval" stroke="#120078" fill="#FFFFFF" fill-rule="nonzero" transform="translate(23.013514, 1.789865) rotate(-10.404000) translate(-23.013514, -1.789865) " cx="23.0135135" cy="1.78986486" r="1.5"></circle>
+            <circle id="Oval" stroke="#120078" fill="#FFFFFF" fill-rule="nonzero" transform="translate(5.258784, 14.849324) rotate(-10.404000) translate(-5.258784, -14.849324) " cx="5.25878378" cy="14.8493243" r="1.5"></circle>
+        </g>
+    </g>
+</svg>
