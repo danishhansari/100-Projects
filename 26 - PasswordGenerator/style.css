@@ -1,0 +1,69 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  outline: none;
+  border: none;
+}
+:root{
+  --blue:#1e2938;
+  --green: #10b981;
+}
+.container{
+  max-width: 550px;
+  background: var(--blue);
+  color: white;
+  position: relative;
+  top: 20vh;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 1em;
+  border-radius: 10px;
+  padding-left: 3em;
+  margin-inline: .5em;
+
+}
+
+.container .title{
+  margin-top: 2em;
+}
+.container .title h1{
+  width: 100%;
+  font-size: 3em;
+  line-height: .9;
+  margin-bottom: .2em;
+}
+.container .title h1 span{
+  color: var(--green);
+}
+.container .title p{
+  color: #ccc;
+  margin-bottom: 2em;
+}
+.container .btn{
+  outline: none;
+  border: 0px;
+  color: white;
+  background: var(--green);
+  padding: .6em .8em;
+  border-radius: 5px;
+  margin-bottom: 3em;
+}
+.container .password{
+  padding: .5em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 2em;
+}
+.container .password > input{
+  background: rgba(255,255,255,.05);
+  padding-block:.5em;
+  padding-left: 1em;
+  color: var(--green);
+  font-size: 1.3em;
+  margin-top: 1em;
+  display: block;
+  width: 90%;
+}
