@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+li{
+    list-style: none;
+}
+body{
+    min-height: 100vh;
+}
+img{
+    width: 100%;
+}
+.container{ 
+    display: flex;
+}
+.side-menu{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid grey;
+    width: 4%;
+}
+.side-menu > div{
+    margin-block: 1em;
+}
+.side-menu .logo {
+    width: 70px;
+}
+.side-menu .menu{
+    background: blue;
+    border-radius: 15px;
+}
+.side-menu .menu .list li{
+    margin-block: 1em;
+    color: white;
+    
+}
+ion-icon{
+    font-size: 2em;
+}
+.side-menu .menu,
+.side-menu .setting{
+    padding-left: 1em;
+}
+.dashboard{
+    width: 96%;
+    padding-inline-start: 2em;
+    padding-inline-end: 4em;
+}
+.dashboard .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5em;
+}
+.dashboard .bell ion-icon{
+    margin-left: .2em;
+    padding: .2em;
+    background: white;
+    box-shadow: 7px 7px 8px rgba(0, 0, 0,.1);
+    border-radius: 50%;
+}
+.dashboard .bell {
+    padding: 1em;
+}
+.dashboard .flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: .3s display;
+    margin-top: 3em;
+    gap: 40px;
+}
+.dashboard .flex .card{
+    height: 500px;
+    background: blue;
+    width: 300px;
+    color: white;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1em;
+}
+.dashboard .card .text{
+    padding: 1em;
+}
+.dashboard .card ion-icon{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.dashboard .card .text h2{
+    margin-block-end: 1em;
+    font-size: 2em;
+}

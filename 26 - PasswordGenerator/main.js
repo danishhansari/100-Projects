@@ -6,19 +6,18 @@ btn.addEventListener('click', () => {
     showPass()
     showPass2()
 })
+let string = "abcdefghijklmnopqrstuvwxyz1234567890";
 function showPass(){
-    let string = "abcdefghijklmnopqrstuvwxyz1234567890~!@#$%&*ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let password = "";
-    for(let i =0 ; i<=12;i++){
+    for(let i =0 ; i<=15;i++){
         let ans = Math.floor(Math.random()*string.length);
         password += string.substring(ans,ans+1);   
     }
     pass1.innerText = password;
 }
 function showPass2(){
-    let string = "abcdefghijklmnopqrstuvwxyz1234567890~!@#$%&*ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let password = "";
-    for(let i =0 ; i<=12;i++){
+    for(let i =0 ; i<=15;i++){
         let ans = Math.floor(Math.random()*string.length);
         password += string.substring(ans,ans+1);   
     }

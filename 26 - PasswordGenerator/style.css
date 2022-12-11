@@ -12,6 +12,7 @@
 }
 .container{
   max-width: 550px;
+  margin: auto 1em;
   background: var(--blue);
   color: white;
   position: relative;
@@ -21,8 +22,6 @@
   padding: 1em;
   border-radius: 10px;
   padding-left: 3em;
-  margin-inline: .5em;
-
 }
 
 .container .title{
