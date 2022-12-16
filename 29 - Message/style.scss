@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins',Georgia, 'Times New Roman', Times, serif;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: steelblue;
+    
+    
+    .box{
+        text-align: center;
+        background: white;
+        padding: 1em 2em;
+        border-radius: 10px;
+        box-shadow: 5px 10px 10px rgba(0,0,0,.2);
+
+        h1{
+            font-size: 2.5em;
+            font-weight: 400;
+        }
+        input[type='text']{
+            border: 1px solid black;
+            display: block;
+            font-size: 1.3em;
+            width: 100%;
+            margin-block: .5em;
+            padding: .5em ;
+        }
+        input[type='submit']{
+            background: teal;
+            font-size: 1.3em;
+            padding: .5em 1em;
+            border-radius: 10px;
+            color: white;
+            margin-block: .2em;
+
+            &:hover{
+                background: rgb(0, 182, 182);
+                scale: .99;
+            }
+        }
+
+
+        .alert{
+            font-size: 1.5em;
+            background: rgba(255, 99, 71, 0.189);
+            margin-block: .3em;
+            display: none;
+            
+
+            &.show{
+                display: block;
+            }
+        }
+        
+        h2{
+            font-weight: 400;
+            font-size: 1.9em;
+        }
+        .msg{
+            font-size: 1.5em;
+            color: steelblue;
+            font-weight: bold;
+        }
+    }
+
+
+
+}

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: steelblue;
+}
+.hero .box {
+  text-align: center;
+  background: white;
+  padding: 1em 2em;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.hero .box h1 {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+.hero .box input[type=text] {
+  border: 1px solid black;
+  display: block;
+  font-size: 1.3em;
+  width: 100%;
+  margin-block: 0.5em;
+  padding: 0.5em;
+}
+.hero .box input[type=submit] {
+  background: teal;
+  font-size: 1.3em;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  color: white;
+  margin-block: 0.2em;
+}
+.hero .box input[type=submit]:hover {
+  background: rgb(0, 182, 182);
+  scale: 0.99;
+}
+.hero .box .alert {
+  font-size: 1.5em;
+  background: rgba(255, 99, 71, 0.189);
+  margin-block: 0.3em;
+  display: none;
+}
+.hero .box .alert.show {
+  display: block;
+}
+.hero .box h2 {
+  font-weight: 400;
+  font-size: 1.9em;
+}
+.hero .box .msg {
+  font-size: 1.5em;
+  color: steelblue;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
