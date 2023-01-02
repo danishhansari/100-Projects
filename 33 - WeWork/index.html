@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeWork</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/55f803f566.js" crossorigin="anonymous"></script>
+  </head>
+
+<body>
+    <div class="feedback-btn">
+        <a href="#">Feedback</a>
+    </div>
+
+    <div class="top-title">
+        <div class="container">
+            <p>For the latest information about WeWork location in india, please visit the local website. <a href="#">WeWork india</a></p>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+        <nav class="navbar">
+            <div class="ham">
+                ☰
+            </div>
+            <div class="logo">
+                <img src="image/wework.svg" alt="WeWork logo">
+            </div>
+            <div class="contact">
+                <p>Contact us</p>
+            </div>
+        </nav>
+        <div class="open-navbar">
+            <img src="image/x.svg" class="ham-close" alt="Hamburger close">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Solution</a></li>
+                <li><a href="#">Enterprise</a></li>
+                <li><a href="#">Ideas</a></li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+
+            <p>Have a question or need help?</p>
+            <p>1800123999000</p>
+        </div>
+        <section class="main-page">
+            <h1>Find your perfect workspace</h1>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="carousel">
+                <!-- Background Images added via JS -->
+            </div>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+        </section>
+        </div>
+    </header>
+
+    <div class="drop-down">
+        <div class="container">
+            <label for="country-state">
+                <i class="fa fa-map-marker-alt"></i>         
+                <select name="State" id="country-state">
+                    <option value="India">Hawaii</option>
+                </select>
+            </label>
+            <a href="#">Start</a>
+        </div>
+    </div>
+
+    <section class="workspace">
+        <div class="container">
+            <div class="browse">
+                <h1>Browse by workspace</h1>
+                <a href="#">View all solutions <i class="fa fa-arrow-right"></i></a>
+            </div>
+            <div class="space">
+                <div class="box-1 office-space">
+                    <img src="image/desk-1.png" alt="Desk">
+                    <div class="office-inner">
+                        <strong>Office strong</strong>
+                        <p>Private move-in ready offices</p>
+                        <button><i class="fa fa-user"></i>1-20+</button>
+                    </div>
+                </div>
+                <div class="box-2 office-space">
+                    <img src="image/desk-2.png" alt="Desk">
+                    <div class="office-inner">
+                        <strong>Dedicated Desk</strong>
+                        <p>Your own desk in a shared office</p>
+                        <button><i class="fa fa-user"></i>1</button>
+                    </div>
+                </div>
+                <div class="box-3 office-space">
+                    <img src="image/desk-3.png" alt="Desk">
+                    <div class="office-inner">
+                        <strong>Hot Desk</strong>
+                        <p>Access to seating in coworking spaces</p>
+                        <button><i class="fa fa-user"></i>1+</button>
+                    </div>
+                </div>
+                <div class="box-4 office-space">
+                    <img src="image/desk-4.png" alt="Desk">
+                    <div class="office-inner">
+                        <strong>Meeting room</strong>
+                        <p>Bookable rooms available by the hour</p>
+                        <button><i class="fa fa-user"></i>1-20</button>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="workspace-a">View all solutions <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <section class="business">
+        <div class="container">
+            <div class="holder">
+                <h1>Get the workspace you need, when and where you need it so you can focus on your business</h1>
+                <div class="card-holder">
+                    <div class="card flexible">
+                        <img src="image/flexible.png" alt="flexible">
+                        <h2>Flexible spaces that meet your needs</h2>
+                        <p>Whether you need a desk for hybrid or remote employees, move-in ready offices for terms of any size, or a new headquaters --we have the solution.</p>
+                    </div>
+                    <div class="card when-you">
+                        <img src="image/workspace.png" alt="workspace">
+                        <h2>Workspace when you want it</h2>
+                        <p>Book by the hour or day, get monthly global access, or settle into an office for as long as you want.</p>
+                    </div>
+                    <div class="card do-your">
+                        <img src="image/anywhere.png" alt="Work anywhere">
+                        <h2>Do your best work anywhere</h2>
+                        <p>Your membership lets you tap into a global network of 700+ prime locations, each filled with business essentials and a friendly community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="workspace-form container">
+        <div class="form">
+            <h1>Let us find your ideal workspace</h1>
+            <p>Complete the form and a WeWork team member will be in touch with you shortly.</p>
+            <form class="main-form">
+                <input type="text" placeholder="Full Name *" required>
+                <input type="email" placeholder="Email Address *" required>
+                <div class="flag-p"><select name="" id="flag">
+                    <option value="India">🇮🇳</option>
+                </select><input type="tel" placeholder="Phone Number *" name="" id=""></div>
+                <input type="number" placeholder="Team size">
+                <div class="drop-down">
+                        <label for="country-state">
+                            <i class="fa fa-map-marker-alt"></i>         
+                            <select name="State" id="country-state">
+                                <option value="India">Hawaii</option>
+                            </select>
+                        </label>
+                        <div class="text">
+                            <p>By clicking the button below, you agree to our <span>Terms of Service</span> and acknowledge our <span>Global Privacy Policy</span></p>
+                        </div>
+                        <a href="#">Submit</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="building">
+        <div class="container">
+            <div class="grid">
+            <div class="text">
+                <h2>BUILDING NEAR YOU</h2>
+                <h1>12 Locations in Mumbai</h1>
+                <a href="#">View all in Mumbai <i class="fa fa-arrow-right"></i></a>
+            </div>
+            <div class="wrapper-slide">
+                <div class="slider card-1">
+                    <img src="image/slide-1.jpg" alt="Sofa room">
+                    <a href="#">NESTO IT Park</a>
+                    <p>Mumbai</p>
+                </div>
+                <div class="slider card-2">
+                    <img src="image/slide-2.jpg" alt="Sofa room">
+                    <a href="#">Raheja Platinum</a>
+                    <p>Mumbai</p>
+                    <p class="grey">Andher East</p>
+                </div>
+                <div class="slider card-3">
+                    <img src="image/slide-3.jpg" alt="Sofa room">
+                    <a href="#">Seawoods Grand Central</a>
+                    <p>Mumbai</p>
+                </div>
+                <div class="slider card-4">
+                    <img src="image/slide-4.jpg" alt="Sofa room">
+                    <a href="#">Zenia</a>
+                    <p>Mumbai</p>
+                </div>
+                <div class="slider card-5">
+                    <img src="image/slide-5.jpg" alt="Sofa room">
+                    <a href="#">Enam Sambhav</a>
+                    <p>Mumbai</p>
+                </div>
+                <div class="slider card-6">
+                    <img src="image/slide-6.jpg" alt="Sofa room">
+                    <a href="#">Express Towers</a>
+                    <p>Mumbai</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="empower">
+        <div class="container">
+            <h1>Empowering tomorrow's world at work</h1>
+            <div class="empower-flex">
+                <p>For over a decade, we've been leading the future of flexible work. From freelancers to Fortune 500s, we're helping our members reimagine the ways of work.</p>
+                <a href="#">View more <i class="fa fa-arrow-right"></i></a>
+            </div>
+            <div class="companies-logo">
+                <div class="logo microsoft">
+                    <img src="image/microsoft.png" alt="microsoft">
+                </div>
+                <div class="logo pfizer">
+                    <img src="image/pfizer.png" alt="Pfizer">
+                </div>
+                <div class="logo samsung">
+                    <img src="image/samsung.png" alt="samsung">
+                </div>
+                <div class="logo salesforce">
+                    <img src="image/salesforce.png" alt="salesforce">
+                </div>
+                <div class="logo visa">
+                    <img src="image/visa.png" alt="Visa">
+                </div>
+                <div class="logo zoom">
+                    <img src="image/zoom.png" alt="zoom">
+                </div>
+            </div>
+            <a href="#">View more <i class=" fa fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <section class="insight">
+        <div class="container">
+        <h4 class="grey">IDEAS BY WEWORK</h4>
+        <div class="insight-title">
+            <h1>Workplace trends and insights</h1>
+            <a href="#">Read on <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div class="insight-flex">
+            <div class="flex-image">
+                <img src="image/insight.jpg" alt="Office">
+            </div>
+            <div class="flex-text">
+                <h5>RESEARCH STUDIES <span class="line"> </span></h5>
+                <h1>The importance of flexible office spaces</h1>
+                <p>A Cushman & Wakefield survey finds flexible offices are an important component of the workplace ecosystem.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <div class="container">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-card-1">
+                <img src="image/swiper-1.jpg" alt="Swiper">
+                <h5>CASE STUDIES ----</h5>
+                <h1>How one remote creative agency went global, fast</h1>
+                <p>Elephant Skin embraced remote work and office space at WeWork to create a global business</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+             <div class="swiper-card-3">
+            <img src="image/swiper-2.jpg" alt="Swiper">
+            <h5>CASE STUDY ----</h5>
+            <h1>How four founders use WeWork All Access</h1>
+            <p>For these founders. workspace helps grow their company and culture.</p>
+        </div></div>
+          <div class="swiper-slide">
+            <div class="swiper-card-3">
+                <img src="image/swiper-3.jpg" alt="Swiper">
+                <h5>FLEXIBLE PRODUCTS ----</h5>
+                <h1>A cutting-edge workspace near Washington, D,C.</h1>
+                <p>WeWork The Wilson is custom-designed for its home community</p>
+            </div>
+          </div>
+        </div>
+        <a href="#">Read on <i class="fa fa-arrow-right"></i></a>
+        <div class="buttons">
+        <div class="swiper-button-next slide-btn"></div>
+        <div class="swiper-button-prev slide-btn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </div>
+      </div>
+
+
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="list grid-1">
+                    <h4 class="grey">COMPANY</h4>
+                    <ul>
+                        <li><a href="#">Global Locations</a></li>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Incusion & Diversity</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                    </ul>
+                </div>
+                <div class="list grid-2">
+                    <h4 class="grey">PARTNERSHIPS</h4>
+                    <ul>
+                        <li><a href="#">Brokers</a></li>
+                        <li><a href="#">Landlords</a></li>
+                        <li><a href="#">Refers a Friend</a></li>
+                        <li><a href="#">Event Planners</a></li>
+                    </ul>
+                </div>
+                <div class="list grid-3">
+                    <h4 class="grey">IMPACT</h4>
+                    <ul>
+                        <li><a href="#">Purpose</a></li>
+                    </ul>
+                </div>
+                <div class="list grid-4">
+                    <h4 class="grey">SUPPORT</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Member Login</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">COVID Response</a></li>
+                    </ul>
+                </div>
+                <div class="list grid-5">
+                    <ul>
+                        <li><a href="https://twitter.com/danishhansari"><i class="fa fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/danishhansari"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://twitter.com/danishhansari"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/danishhansari"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                    <select name="Language" id="lang">
+                        <option value="English">English</option>
+                        <option value="English">English (United Kingdom)</option>
+                        <option value="Hindi">हिंदी</option>
+                        <option value="Urdu">اردو</option>
+                        <option value="Chinese">中國人</option>
+                        <option value="Portuguse">Português</option>
+                        <option value="Spanish">española</option>
+                        <option value="French">française</option>
+                        <option value="English">English (South Africa)</option>
+                        <option value="English">English (USA)</option>
+                    </select>
+                </div>
+                <div class="item grid-6">
+                    <select name="Language" id="lang">
+                        <option value="English">English</option>
+                        <option value="English">English (United Kingdom)</option>
+                        <option value="Hindi">हिंदी</option>
+                        <option value="Urdu">اردو</option>
+                        <option value="Chinese">中國人</option>
+                        <option value="Portuguse">Português</option>
+                        <option value="Spanish">española</option>
+                        <option value="French">française</option>
+                        <option value="English">English (South Africa)</option>
+                        <option value="English">English (USA)</option>
+                    </select>
+                </div>
+            </div>
+
+            <section class="we">
+                <div class="number">
+                <a href="tel:6205089780">+91 6205089780</a>
+                <address>
+                <p>WeWork Companies LLC</p>
+                <p>75 Rockefeller Plaza</p>
+                <p>Floor 10</p>
+                <p>New York, New York 10019</p>
+                </address>
+                </div>
+                <div class="we-list">
+                    <div class="list">
+                        <address>
+                            <ul>
+                            <li>Privacy</li>
+                            <li>Terms</li>
+                            <li>Cookie Policy</li>
+                            <li>Cookie</li>
+                            <li>Settings</li>
+                            <li>Accessibility</li>
+                            <li>Sitemap</li>
+                        </ul>
+                            </address>
+                        <p class="copyright">Copyright &copy; 2022 WeWork. All rights reserved</p>
+                    </div>
+                    <div class="logo">
+                        <img src="image/we-circle.svg" alt="WeWork">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+
+</html>
