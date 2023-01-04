@@ -11,7 +11,7 @@ const dropMenu = document.querySelectorAll('#country-state');
 const flagEl = document.getElementById('flag');
 setTimeout(() => {
     topTitle.style.display = 'none';
-}, 5000);
+}, 3000);
 ham.addEventListener('click',() => {
     openNav.classList.add('active');
 });
@@ -66,7 +66,7 @@ setInterval(() => {
         count = 0;
         renderCarousel(count);
     }
-},5000);
+},3000);
 
 dropMenu.forEach(menu => {
     countrySet(menu);
