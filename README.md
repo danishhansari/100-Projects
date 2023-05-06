@@ -9,31 +9,20 @@ In this repository i will be sharing how i learn html css by building projects o
 | 04  | [Landing Page](https://www.github.com/danishhansari/100-Website)                          | [Live Demo](https://landingpage-5k9.pages.dev/)          |
 | 05  | [Shopping Card](https://www.github.com/danishhansari/100-Website)                               | [Live Demo](https://shoppingcard.pages.dev/)                |
 | 06  | [Photography Page](https://www.github.com/danishhansari/100-Website)                           | [Live Demo](https://photographypage.pages.dev/)              |
-| 07  | [Responsive Single Page](https://www.github.com/danishhansari/100-Website-page)                       | [Live Demo](https://50projects50days.com/projects/split-landing-page/)            |
-| 08  | [Login](https://www.github.com/danishhansari/100-Website-wave)                                         | [Live Demo](https://50projects50days.com/projects/form-wave/)                     |
-| 09  | [Grid Layout](https://www.github.com/danishhansari/100-Website)                                     | [Live Demo](https://50projects50days.com/projects/sound-board/)                   |
-| 10  | [Apple HomePage](https://www.github.com/danishhansari/100-Website)                                         | [Live Demo](https://50projects50days.com/projects/dad-jokes/)                     |
-| 11  | [Sunny summer](https://www.github.com/danishhansari/100-Website)                               | [Live Demo](https://50projects50days.com/projects/event-keycodes/)                |
-| 12  | [Responsive hamburger](https://www.github.com/danishhansari/100-Website)                                   | [Live Demo](https://50projects50days.com/projects/faq-collapse/)                  |
-| 13  | [Parallex Effect](https://www.github.com/danishhansari/100-Website-picker)                   | [Live Demo](https://50projects50days.com/projects/random-choice-picker/)          |
-| 14  | [Bootstrap Website](https://www.github.com/danishhansari/100-Website)                     | [Live Demo](https://50projects50days.com/projects/animated-navigation/)           |
-| 15  | [Cosmos Space](https://www.github.com/danishhansari/100-Website)                   | [Live Demo](https://50projects50days.com/projects/incrementing-counter/)          |
-| 16  | [Civo clone](https://www.github.com/danishhansari/100-Website)                                     | [Live Demo](https://50projects50days.com/projects/drink-water/)                   |
-| 17  | [Signal clone](https://www.github.com/danishhansari/100-Website)                                         | [Live Demo](https://50projects50days.com/projects/movie-app/)                     |
-| 18  | [Christmas](https://www.github.com/danishhansari/100-Website)                         | [Live Demo](https://50projects50days.com/projects/background-slider/)             |
-| 19  | [Tip Calculator](https://www.github.com/danishhansari/100-Website)                                     | [Live Demo](https://50projects50days.com/projects/theme-clock/)                   |
-| 20  | [Rock Paper Scissor](https://www.github.com/danishhansari/100-Website-effect)                   | [Live Demo](https://50projects50days.com/projects/button-ripple-effect/)          |
-| 21  | [Background Changer](https://www.github.com/danishhansari/100-Website-drop)                                     | [Live Demo](https://50projects50days.com/projects/drag-n-drop/)                   |
-| 22  | [Hamburger Animations](https://www.github.com/danishhansari/100-Website)                                     | [Live Demo](https://50projects50days.com/projects/drawing-app/)                   |
-| 23  | [Pricing Table](https://www.github.com/danishhansari/100-Website)                               | [Live Demo](https://50projects50days.com/projects/kinetic-loader/)                |
-| 24  | [SideBar](https://www.github.com/danishhansari/100-Website)                     | [Live Demo](https://50projects50days.com/projects/content-placeholder/)           |
-| 25  | [Digital Ocean](https://www.github.com/danishhansari/100-Website)                                 | [Live Demo](https://50projects50days.com/projects/sticky-navbar/)                 |
-| 26  | [Password Generator](https://www.github.com/danishhansari/100-Website-slider)               | [Live Demo](https://50projects50days.com/projects/double-vertical-slider/)        |
-| 27  | [Dashboard](https://www.github.com/danishhansari/100-Website)                       | [Live Demo](https://50projects50days.com/projects/toast-notification/)            |
-| 28  | [Color Change](https://www.github.com/danishhansari/100-Website)                             | [Live Demo](https://50projects50days.com/projects/github-profiles/)               |
-| 29  | [Message](https://www.github.com/danishhansari/100-Website-heart)                       | [Live Demo](https://50projects50days.com/projects/double-click-heart/)            |
-| 30  | [Counter](https://www.github.com/danishhansari/100-Website-effect)                           | [Live Demo](https://50projects50days.com/projects/auto-text-effect/)              |
-| 31  | [Digital Clock](https://www.github.com/danishhansari/100-Website)                       | [Live Demo](https://50projects50days.com/projects/password-generator/)            |
-| 32  | [Gumroad Clone](https://www.github.com/danishhansari/100-Website-fast)                             | [Live Demo](https://50projects50days.com/projects/good-cheap-fast/)               |
-| 33  | [WeWork](https://www.github.com/danishhansari/100-Website)                                         | [Live Demo](https://50projects50days.com/projects/notes-app/)                     |
-| 34  | [Cred Clone](https://www.github.com/danishhansari/100-Website)                       | [Live Demo](https://50projects50days.com/projects/animated-countdown/)            |
+| 07  | [Responsive Single Page](https://www.github.com/danishhansari/100-Website)                       | [Live Demo](https://responsivesinglepage.vercel.app/)            |
+| 08  | [Login](https://www.github.com/danishhansari/100-Website)                                         | [Live Demo](https://08-login.vercel.app/)                     |
+| 09  | [Grid Layout](https://www.github.com/danishhansari/100-Website)                                     | [Live Demo](https://09-grid-layout.vercel.app/)                   |
+| 10  | [Apple HomePage](https://www.github.com/danishhansari/100-Website)                                         | [Live Demo]()                     |
+| 11  | [Sunny summer](https://www.github.com/danishhansari/100-Website)                               | [Live Demo](https://sunnysummer.vercel.app/)                |
+| 12  | [Responsive hamburger](https://www.github.com/danishhansari/100-Website)                                   | [Live Demo](https://responsivehamburger.vercel.app/)                  |
+| 13  | [Parallex Effect](https://www.github.com/danishhansari/100-Website)                   | [Live Demo](https://parallexeffect.vercel.app/)          |
+| 14  | [Bootstrap Website](https://www.github.com/danishhansari/100-Website)                     | [Live Demo](https://frontendbootcamp.vercel.app/)           |
+| 15  | [Cosmos Space](https://www.github.com/danishhansari/100-Website)                   | [Live Demo](https://cosmosspace.vercel.app/)          |
+| 16  | [Civo clone](https://www.github.com/danishhansari/100-Website)                                     | [Live Demo](https://civocloud.vercel.app/)                   |
+| 17  | [Signal clone](https://www.github.com/danishhansari/100-Website)                                         | [Live Demo](https://signalsms.vercel.app/)                     |
+| 18  | [Christmas](https://www.github.com/danishhansari/100-Website)                         | [Live Demo](https://christmasgreet.vercel.app/)             |
+| 19  | [Tip Calculator](https://www.github.com/danishhansari/100-Website)                                     | [Live Demo](https://tippcalculator.vercel.app/)                   |
+| 20  | [Rock Paper Scissor](https://www.github.com/danishhansari/100-Website)                   | [Live Demo](https://rockpaperscissorr.vercel.app/)          |
+| 21  | [Digital Ocean](https://www.github.com/danishhansari/100-Website)                                     | [Live Demo](https://50projects50days.com/projects/sticky-navbar/)                   |
+| 22  | [Wework](https://www.github.com/danishhansari/100-Website)                                     | [Live Demo](https://www.weworkk.vercel.app)                   |
+| 23  | [Cred clone](https://www.github.com/danishhansari/100-Website)                               | [Live Demo](https://credd.vercel.app/)                |
