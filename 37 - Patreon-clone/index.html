@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creativity powered by membership</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/55f803f566.js" crossorigin="anonymous"></script>
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar">
+        <div class="flex">
+            <div class="logo-ul flex">
+                <img class="logo" src="img/logo.png" alt="logo">
+                <ul class="desktop-only">
+                    <li><a href="#">Product<i class="fa fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">
+                                    <h5>Lite</h5>
+                                    <p>Simple tools to set up recurring support from your fans</p>
+                                </a></li>
+                            <li><a href="#">
+                                    <h5>Pro</h5>
+                                    <p>All the tools to build and grow a thriving membership business</p>
+                                </a></li>
+                            <li><a href="#">
+                                    <h5>Premium</h5>
+                                    <p>For established creators and creative businesses</p>
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">For creators<i class="fa fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-podcast"></i> Podcasters</a></li>
+                            <li><a href="#"><i class="fa-solid fa-video"></i> Video Creators</a>
+                            </li>
+                            <li><a href="#"><i class="fa-solid fa-guitar"></i> Musicians</a></li>
+                            <li><a href="#"><i class="fa-solid fa-paintbrush"></i> Visual
+                                    Artists</a></li>
+                            <li><a href="#"><i class="fa-regular fa-comments"></i> Communities</a>
+                            </li>
+                            <li><a href="#"><i class="fa-solid fa-pen"></i> Writers &
+                                    Journalists</a></li>
+                            <li><a href="#"><i class="fa-solid fa-gamepad"></i> Gaming Creators</a>
+                            </li>
+                            <li><a href="#"><i class="fa-regular fa-heart"></i> Nonprofits</a></li>
+                            <li><a href="#"><i class="fa-solid fa-graduation-cap"></i> Tutorials
+                                    and Education</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Local
+                                    Businesses</a></li>
+                            <li><a href="#"><i class="fa-solid fa-cube"></i>
+                                    Creators-of-all-kinds</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pricing </a></li>
+                    <li><a href="#">Resources</a>
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="login flex">
+                <div class="input desktop-only">
+                    <span>
+                        <i class="fa fa-search">
+                            <input type="text" placeholder="Find a creator">
+                        </i>
+                    </span>
+                </div>
+                <div class="sign-btn flex">
+                    <div class="btns">
+                        <a href="#" class="btn-line">Log In</a>
+                        <a href="#" class="btn">Create on Patreon</a>
+                    </div>
+                    <button id="hamClose"><i class="fa fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="input ">
+            <span>
+                <i class="fa fa-search">
+                    <input type="text" placeholder="Find a creator">
+                </i>
+            </span>
+        </div>
+
+        <div class="mobile-menu">
+            <div class="container">
+                <div class="img flex">
+                    <img src="./img/logo.png" alt="Logo">
+                    <button id="hamOpen"><i class="fa fa-x"></i></button>
+                </div>
+                <ul>
+                    <li id="product">Product <i class="fa fa-chevron-down"></i>
+                        <section>
+                    <li>
+                        <h3>Lite</h3>
+                        <p>Simple tools to set up recurring support from your fans</p>
+                    </li>
+                    <li>
+                        <h3>Pro</h3>
+                        <p>All the tools to build and grow a thriving membership business</p>
+                    </li>
+                    <li>
+                        <h3>Premium</h3>
+                        <p>For established creator and creative business</p>
+                    </li>
+                    </section>
+                    </li>
+                    <li id="for-creators">For creators <i class="fa fa-chevron-down"></i>
+                        <section>
+                    <li><a href="#">Podcasters</a></li>
+                    <li><a href="#">Video Creators</a>
+                    </li>
+                    <li><a href="#">Musicians</a></li>
+                    <li><a href="#">Visual
+                            Artists</a></li>
+                    <li><a href="#">Communities</a>
+                    </li>
+                    <li><a href="#">Writers &
+                            Journalists</a></li>
+                    <li><a href="#">Gaming Creators</a>
+                    </li>
+                    <li><a href="#">Nonprofits</a></li>
+                    <li><a href="#">Tutorials
+                            and Education</a></li>
+                    <li><a href="#">Local
+                            Businesses</a></li>
+                    <li><a href="#"> Creators-of-all-kinds</a></li>
+                    </section>
+                    </li>
+                    <li><a href="#">Pricing</a></li>
+                    <li id="resource">Resources <i class="fa fa-chevron-down"></i>
+                        <section>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Creator Hub</a></li>
+                    <li><a href="#">App Directory</a></li>
+                    <li><a href="#">Help Center & FAQ</a></li>
+                    </section>
+                    </li>
+                    <li><a href="#">Create on Patreon</a></li>
+                    <li><a href="#">Log In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main Section -->
+    <main class="main">
+        <div class="heading">
+            <h1 class="title">Creativity powered by membership</h1>
+            <a href="pages/login.html" class="get-btn">Get Started</a>
+        </div>
+
+
+        <section class="collarge" loading="lazy">
+            <div class="album album1">
+                <img src="img/a1.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a2.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a3.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a4.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a5.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a6.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a7.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a8.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a9.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a10.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a11.jpeg" loading="lazy" alt="Movie Poster">
+            </div>
+            <div class="album album2">
+                <img src="img/a12.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a13.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a14.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a15.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a16.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a17.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a18.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a19.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a20.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a21.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a22.png" loading="lazy" alt="Movie Poster">
+            </div>
+            <div class="album album3">
+                <img src="img/a23.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a24.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a25.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a26.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a27.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a28.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a29.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a30.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a31.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a32.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a34.jpeg" loading="lazy" alt="Movie Poster">
+            </div>
+            <div class="album album4">
+                <img src="img/a35.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a36.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a37.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a38.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a39.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a40.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a41.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a42.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a43.jpeg" loading="lazy" alt="Movie Poster">
+                <img src="img/a44.png" loading="lazy" alt="Movie Poster">
+                <img src="img/a45.png" loading="lazy" alt="Movie Poster">
+            </div>
+        </section>
+    </main>
+
+
+    <!--  -->
+    <section class="container">
+        <div class="search-over">
+            <h1 class="title">Search over 250,000 creators on Patreon</h1>
+            <div class="input">
+                <span>
+                    <i class="fa fa-search">
+                        <input type="text" placeholder="Find a creator">
+                    </i>
+                </span>
+                <a href="#" class="get-btn">Search</a>
+            </div>
+        </div>
+        <div class="what-patreon">
+            <h1 class="title">What is Patreon</h1>
+            <p class="text">Patreon is the best place for creators to build memberships by providing exclusive access to
+                their work and a deeper connection with their communities. </p>
+        </div>
+
+        <div class="flex cards" loading="lazy">
+            <div class="card create-world">
+                <img src="img/true-crime.png" class="card-img" alt="True Crime">
+                <h3 class="card-heading">Your world to create</h3>
+                <p class="text">Share what you make directly with your biggest fans, build a dedicated community, and
+                    get paid the way you want to.</p>
+            </div>
+            <div class="card membership">
+                <img src="img/creative-control.png" class="card-img" alt="creative controls">
+                <h3 class="card-heading">Membership FTW</h3>
+                <p class="text">Do what you love in a way that's creatively and financially sustainable for both
+                    yourself and your community.</p>
+            </div>
+            <div class="card no-trolls">
+                <img src="img/no-trolls.png" class="card-img" alt="No Trolls">
+                <h3 class="card-heading">No trolls, no haters.</h3>
+                <p class="text">Build a space purely for your most passionate fans, where you can connect beyond just
+                    likes and shares. </p>
+            </div>
+            <div class="card">
+                <img src="img/algorithm.png" class="card-img" alt="">
+                <h3 class="card-heading">Algorithm shmalgorithm</h3>
+                <p class="text">Make more of what you want to make, and less of what gatekeepers and algorithms require
+                    you to make.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="who-uses">
+        <div class="what-patreon container">
+            <h1 class="title">Who uses Patreon</h1>
+            <p class="text">Hundreds of thousands of video creators, podcasters, musicians, writers, gamers, and more
+                are achieving creative and financial freedom doing what they love on Patreon.</p>
+        </div>
+
+        <div class="filter">
+            <div class="filter-div container">
+                <button class="filter-btn video active" data-target="video-creator">Video creators</button>
+                <button class="filter-btn podcasters" data-target="podcaster">Podcasters</button>
+                <button class="filter-btn artist" data-target="artist
+                ">Visual Artists</button>
+                <button class="filter-btn musicians" data-target="musicians">Musicians</button>
+                <button class="filter-btn other" data-target="other">Other</button>
+            </div>
+            <div class="filter-cards slider" loading="lazy">
+                <div class="filter-img video-creator active" data-target="video-creator">
+                    <img src="./img/mega.png" loading="lazy" alt="mega">
+                    <img src="./img/tarot.png" loading="lazy" alt="tarot">
+                    <img src="./img/yaboy.png" loading="lazy" alt="yaboy">
+                    <img src="./img/5.png" loading="lazy" alt="5 channel">
+                    <img src="./img/flagrant.png" loading="lazy" alt="Flagrant">
+                </div>
+                <div class="podcaster filter-img" data-target="podcaster">
+                    <img src="./img/angel.png" loading="lazy" alt="angle">
+                    <img src="./img/fits.png" loading="lazy" alt="throwing fits">
+                    <img src="./img/the.png" loading="lazy" alt="fantasy">
+                    <img src="./img/flagrant2.png" loading="lazy" alt="Flagrant">
+                    <img src="./img/momies.png" loading="lazy" alt="momies">
+                </div>
+                <div class="artists filter-img" data-target="artists">
+                    <img src="./img/ken.png" loading="lazy" alt="Ken goshen">
+                    <img src="./img/rainylune.png" loading="lazy" alt="rainylune">
+                    <img src="./img/drawfee.png" loading="lazy" alt="drawfee">
+                    <img src="./img/teal.jpg" loading="lazy" alt="teal">
+                    <img src="./img/fits.png" loading="lazy" alt="fits">
+                </div>
+                <div class="music filter-img" data-target="music">
+                    <img src="./img/hate.png" loading="lazy" alt="hate">
+                    <img src="./img/look.png" loading="lazy" alt="Look">
+                    <img src="./img/jacob.png" loading="lazy" alt="jacob">
+                    <img src="./img/scary.png" loading="lazy" alt="scary">
+                    <img src="./img/wrek.png" loading="lazy" alt="wrekonize">
+                </div>
+                <div class="others filter-img" data-target="other">
+                    <img src="./img/gunnar.png" loading="lazy" alt="gunnar">
+                    <img src="./img/physics.png" loading="lazy" alt="physics">
+                    <img src="./img/whats.png" loading="lazy" alt="whats">
+                    <img src="./img/nature.png" loading="lazy" alt="nature">
+                    <img src="./img/humans.png" loading="lazy" alt="humans">
+                </div>
+            </div>
+        </div>
+
+        <div class="what-patreon membership">
+            <h1 class="title">Membership in action</h1>
+            <p class="text">See how creators and their communities are using Patreon to take back creative control.</p>
+        </div>
+
+        <div class="blogs flex container">
+            <div>
+                <a href="#">
+                    <img src="img/blog1.png" alt="Blogs">
+                    <h5>After being censored on Instagram, feminist activists are turning on Patreon</h5>
+                    <div class="underline">
+                        <a href="#">Read More</a>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/blog2.png" alt="Blogs">
+                    <h5>When YouTube stood between YaBoyRoshi and their community they took their community on Patreon
+                    </h5>
+                    <div class="underline">
+                        <a href="#">Read More</a>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/blog3.jpeg" alt="Blogs">
+                    <h5>How Patrick Hinds turned his true crime obsession into a career</h5>
+                    <div class="underline">
+                        <a href="#">Read More</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="what-patreon bottom-patreon">
+            <h1 class="title">Ready to start your membership?</h1>
+            <a href="#" class="get-btn">Get started</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="flex">
+                <img class="logo" src="img/logo-invert.png" alt="Logo">
+                <div class="social-list">
+                    <a href="https://twitter.com/danish__an" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://twitter.com/danish__an" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/danishh_ig/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/danishhansari" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="lang-list">
+                <div class="footer-border">
+                    <div class="lang">
+                        <div class="border" id="language">
+                            Language: English (United States)
+                        </div>
+                        <div class="border">
+                            <select id="country">
+                            </select>
+                        </div>
+                        <div class="border currency-border">
+                            Currency: USD
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-list flex">
+                    <ul class="list">
+                        <h4>product</h4>
+                        <li>Lite</li>
+                        <li>Pro</li>
+                        <li>Premium</li>
+                        <li>Pricing</li>
+                    </ul>
+                    <ul class="list">
+                        <h4>for creators</h4>
+                        <li>Podcasters</li>
+                        <li>Video Creators</li>
+                        <li>Musicians</li>
+                        <li>Visual Artists</li>
+                        <li>Writers & Journalists</li>
+                        <li>Communities</li>
+                        <li>Gaming Creators</li>
+                        <li>Nonprofits</li>
+                        <li>Tutorials and Education</li>
+                        <li>Local Businesses</li>
+                        <li>Creators-of-all-kinds</li>
+                    </ul>
+                    <ul class="list">
+                        <h4>resources</h4>
+                        <li>Blog</li>
+                        <li>Creator Hub</li>
+                        <li>Help Centre & FAQ</li>
+                        <li>App Directory</li>
+                        <li>Developer</li>
+                    </ul>
+                    <ul class="list">
+                        <h4>company</h4>
+                        <li>About</li>
+                        <li>Press</li>
+                        <li>Careers</li>
+                        <li>Privacy</li>
+                        <li>Privacy & Terms</li>
+                        <li>Privacy Preferences</li>
+                        <li>Accessiblity</li>
+                        <li>Impressum</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="location">
+
+                <div class="social-list desktop-only">
+                    <a href="https://twitter.com/danish__an" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://twitter.com/danish__an" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/danishh_ig/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/danishhansari" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <p class="trade-mark">&copy; Patreon &nbsp; &nbsp; Sitemap</p>
+                <div class="address">
+                    <p>600 Townsend Street, Suite 500
+                        San Francisco, CA 94103
+                        <br>
+                        USA
+                        <br>
+                        Phone: +1 (833) 972-8766
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <div class="privacy">
+        <h1>Your Privacy</h1>
+        <p>Patreon determines the use of personal data collected on our media properties and across the internet. We may
+            collect data that you submit to us directly or data that we collect automatically including from
+            cookies(such as device information or IP address). Please read our <a>Privacy Policy</a> to learn about our
+            privacy practices or click "Your Preference" to exercise control over your data</p>
+        <button class="accept">Accept</button>
+        <button class="preference">Your Preference</button>
+    </div>
+
+
+    <div class="overlay">
+        <div class="choose-language">
+            <div class="choose flex">
+                <p>Choose your language</p>
+                <button class="x-btn">
+                    <i class="fa fa-x"></i>
+                </button>
+            </div>
+            <div class="language flex">
+                <p class="active">English (United States)</p>
+                <p>Dansk</p>
+                <p>Deutsch</p>
+                <p>English (United Kingdom)</p>
+                <p>Español? (Español?)</p>
+                <p>Español? (Latinoamérica)</p>
+                <p>Francais</p>
+                <p>Italiano</p>
+                <p>Nederlands</p>
+                <p>Norsk (Bokmal)</p>
+                <p>Polski</p>
+                <p>Português (Brasil)</p>
+                <p>Svenska</p>
+                <p>PYCCKNN</p>
+                <p>YkpaiHCbKa</p>
+                <p>日本語</p>
+                <p>英語滯後</p>
+                <p>英語滯</p>
+                <p>中國人</p>
+            </div>
+            <div class="lang-btn flex">
+                <button class="cancel">Cancel</button>
+                <button class="save">Save & update</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="currency-overlay">
+        <div class="choose-language curreny">
+            <div class="choose flex">
+                <p>Choose your language</p>
+                <button class="x-btn">
+                    <i class="fa fa-x"></i>
+                </button>
+            </div>
+            <div class="language flex" id="currency-div">
+                <!-- Items are adding dynamically -->
+            </div>
+            <div class="lang-btn flex">
+                <button class="cancel">Cancel</button>
+                <button class="save">Update</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

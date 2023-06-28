@@ -26,3 +26,4 @@ In this repository i will be sharing how i learn html css by building projects o
 | 21  | [Digital Ocean](https://www.github.com/danishhansari/100-Website)                                     | [Live Demo](https://50projects50days.com/projects/sticky-navbar/)                   |
 | 22  | [Wework](https://www.github.com/danishhansari/100-Website)                                     | [Live Demo](https://www.weworkk.vercel.app)                   |
 | 23  | [Cred clone](https://www.github.com/danishhansari/100-Website)                               | [Live Demo](https://credd.vercel.app/)                |
+| 24  | [Patreon clone](https://www.github.com/danishhansari/100-Website)                               | [Live Demo](https://patreonn.vercel.app/)                |
